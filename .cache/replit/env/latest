@@ -1,0 +1,54 @@
+declare -gx DIRENV_CONFIG=/etc/direnv
+declare -gx REPLIT_ENVIRONMENT=production
+declare -gx REPL_IMAGE=gcr.io/marine-cycle-160323/nix:bf8590a3e2f0a8b70b7ca175eeed9074dffbfca9
+declare -gx NIX_PS1='\[\033[01;34m\]\w\[\033[00m\]\$ '
+declare -gx GIT_EDITOR=replit-git-editor
+declare -gx NIXPKGS_ALLOW_UNFREE=1
+declare -gx REPLIT_SUBCLUSTER=interactive
+declare -gx HOME=/home/runner
+declare -gx REPL_ID=e331f35c-89b0-46df-80a5-c78ab479623e
+declare -gx REPLIT_PID1_FLAG_NIXMODULES_BEFORE_REPLIT_NIX=1
+declare -gx NIX_PATH=nixpkgs=/home/runner/.nix-defexpr/channels/nixpkgs-stable-23_11:/home/runner/.nix-defexpr/channels
+declare -gx LANG=en_US.UTF-8
+declare -gx REPLIT_CLUSTER=pike
+declare -gx REPLIT_LD_AUDIT=/nix/store/n5x1kgbz8zjh63ymsijbislyi1n1hir6-replit_rtld_loader-1/rtld_loader.so
+declare -gx GIT_ASKPASS=replit-git-askpass
+declare -gx REPLIT_CLI=/nix/store/iyamch9lymyfq95l9nbk6x8wk6qlf9gs-pid1-0.0.1/bin/replit
+declare -gx NIX_PROFILES='/nix/var/nix/profiles/default /home/runner/.nix-profile'
+declare -gx REPLIT_PID1_VERSION=0.0.0-45aa7ef
+declare -gx REPLIT_DEV_DOMAIN=e331f35c-89b0-46df-80a5-c78ab479623e-00-nemmt9edu8mx.pike.replit.dev
+declare -gx REPL_HOME=/home/runner/Visionmart
+declare -gx XDG_CONFIG_HOME=/home/runner/Visionmart/.config
+declare -gx DOCKER_CONFIG=/home/runner/Visionmart/.config/docker
+declare -gx REPLIT_BASHRC=/nix/store/im3371wb3b5wkq8ybcwydn89cbw30csv-replit-bashrc/bashrc
+declare -gx USER=runner
+declare -gx LIBGL_DRIVERS_PATH=/nix/store/zxhjnh2d440bhli0zck18s10hcq07qpp-mesa-24.2.2-drivers/lib/dri
+declare -gx REPL_IDENTITY=v2.public.Q2lSbE16TXhaak0xWXkwNE9XSXdMVFEyWkdZdE9EQmhOUzFqTnpoaFlqUTNPVFl5TTJVU0QyaHZibVY1YTNOdmJHRnVhMmt5TUJvS1ZtbHphVzl1YldGeWRDSWtaVE16TVdZek5XTXRPRGxpTUMwME5tUm1MVGd3WVRVdFl6YzRZV0kwTnprMk1qTmxPS256MkJCYUV3b0VjR2xyWlJJTGFXNTBaWEpoWTNScGRtVT1eos4LPRX1CstEOdpT2svPj-y80ifPrTJgkfflbTdU-XETA941rUxfJeft8cfx3rmIiqPeAKvviP9hc6Uy65gP.R0FFaUJtTnZibTFoYmhLYkNIWXlMbkIxWW14cFl5NVJNbVF6VTFoU1VXUldRakZSVm14U1lXeEJlV0pJYUVKVFZrNUZVVmRzUlU5RmNHeE9SVXB2VVRGV2JsbFhTa1pSVjJoMlVUQmtRbFpYUmt0YU1qbHlWMnhTVG1Wck1WaFhXSEJQVmpBeE1GUXdVbk5oVlRGRVRVUkNUMkpXU25SVVJsSnVaREZzVlZaWVVscGxiVTB3VjFaa1NrMUZOVFpoZWtwT1lXczFjMUl5YUVaVk1GRjVZVWhhYVdKV1dURlpWRTVQWkcxS1NGSnVWbWhOYlhRMVZGVktkbEpyT1V4aWJtOTVVV3RHYUZGdGJFcFNWMDVJWWtoS1lWVnRPVTlUTW1Rd1kwZEtkVlZ0ZUdwaVZWcHhXa1ZrYzAxc2NGUlRWRVpvWld0c01Wa3dhRmRoVjBwSVlrZHdUV0pGV2pGWk1uQk9UVlprUmxkcldtRlNNbEkyVlZkNGMyTXhXblZUYTJ4WlRVVnJlRmw2U2s5VVJtUnlaRE5TVGsxdVVrdFdWV1JUVWpKT1JtSkdTbE5sYTBrd1ZXdFNUMDFXVWxkV1ZESXdaMnBRYjJWWk9IbHBSV014TWxOUFpEaHBNM1pHZFdGNlltNHpUbVJmVDJnelJVUlNiemxHUmpWNWFEaG9NSEl0Wlc5dmNrMXNlbGRTV1hscFZFaHdNMWhWZUZwalUwczBSRnBhVlRaM2NsTlVUVEJQTGxJd1JrWmhWVXAwVkc1YWFXSlVSbTlaYldoTldXdEdkVmRZYkUxaWEwbDRWMWN4TkdOR2JEVk9Wa3BPWWxaSk1sWlVSbXROUjFaMFUyeGFWR0p1UWxkV2JURTBWVEZTY2xWdFJrNVdia0pYVlRKMFQxWkdXbGxoUlZaV1pXdEtjbFZxUVRGVFZrWnlVMnhhVGxKc2NGTldiWEJQV1ZkU1YySXphRk5pVjJoVFZtcEtiMlJXVmxoa1IzUnBZa1UxV0ZsclZrOVdiVXBWWWtWV1ZtRnJTa2hhUjNoelZteEtkVkpzU2xkV1dFSktWakp3UTJNeFpITlNiR2hvVTBad1UxUlZaRk5STVZwSFdrVmtVbUpWV2tsWGExVjRWVEF4ZEZWcmRGZE5WbHBVVlZSS1NtUXhVbkpoUmtwWFlURndkbFpXV210aU1rcHpWRzVLYVZORldsaFpiWFIzVkRGc1YxVnNaRTVOV0VKSVYydFdNR0ZyTVhKWGJHeFhVbTFvV0ZaRVJtRmtSMVpKWTBaa1YySldTa2xXUmxKTFZESk5lVk5xV2xaaGVteFlWRmQ0UzJJeFdYbE5WRkpVVFd0YVIxUldWbXRXUjBwR1YyeGFXbFo2UlRCWFZscHpUbXhHVlZKdGNHbFNXRUkyVmtSR1YxbFhSWGxUYkd4V1ZrVmFWMWxyV21GamJIQklaVVZhYkZKdVFrWldNakYzWVVkRmVHTkhPVmRoYTFwVVZYcEdUbVZHV25OVGJFWlhVa1ZLTTFZeWRHRlhiVTUwWTBVeFVGZEZOSHBhUlZaYVRsWndSVkpZVW1saVZGWlJWREJrWVZWdFNsaGhSRXBVVWxad2VGWnJWbkprUjFKRllVVndhV0pXY0ZGWFJFbDRWbFV4ZEZsNlVtcFhTRUpHVld0a1ZrNUdXa1ZpUmxKb1RWWktObGR0ZUc5aVYxWnlZbnBDV0ZaVk1UWlhiWE4zWld4a1ZrNVlTbFJXUjFKWlYxZHJkMDVXU25KVmJUbFBZVlJHVEZScVNUVlNSWGh6VTFoa1UyRXhjRzlXYkZaM1RVWmFTRTVYUm1oV01IQldWVzB3TlZkdFNsaFZha3BXWVd0d1VGVXhXazlrVm1SMFVteE9VMlZ0WnpBPQ
+declare -gx REPL_OWNER_ID=35010985
+read -r _new_path <<< "/nix/store/pj6ddnsrmi8gd2p0ldbwks659vm8m1my-pid1/bin:/nix/store/bj8n3my3m35kmpsv9fp8751k98n72nip-replit-runtime-path/bin:/home/runner/.nix-profile/bin:/home/runner/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+#PATH=/nix/store/pj6ddnsrmi8gd2p0ldbwks659vm8m1my-pid1/bin:/nix/store/bj8n3my3m35kmpsv9fp8751k98n72nip-replit-runtime-path/bin:/home/runner/.nix-profile/bin:/home/runner/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+if [ -e "/run/replit/env/last" ]; then read -r _last_path < <(\grep '^#PATH=' /run/replit/env/last | cut -f 2 -d =); fi
+_user_components="$(\tr : $'\n' <<< "${PATH:-}" |\grep -xv -f <(\tr : $'\n' <<< "${_last_path}") |\tr $'\n' :)"
+declare -gx PATH="${_user_components}${_new_path}"
+declare -gx REPLIT_RTLD_LOADER=1
+declare -gx DISPLAY=:0
+declare -gx REPLIT_DB_URL=https://kv.replit.com/v0/eyJhbGciOiJIUzUxMiIsImlzcyI6ImNvbm1hbiIsImtpZCI6InByb2Q6MSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb25tYW4iLCJleHAiOjE3Mjg0MjY0MTksImlhdCI6MTcyODMxNDgxOSwiZGF0YWJhc2VfaWQiOiJlMzMxZjM1Yy04OWIwLTQ2ZGYtODBhNS1jNzhhYjQ3OTYyM2UifQ.ySPyfdnfRHq8JNtYz8EG72Sz4o4dzGMamIsoTMFoJkomg6nHjhXXX-zLwmochyR3adh2JHT3nY1DILA0VCRQrg
+declare -gx REPLIT_PID1_FLAG_REPLIT_RTLD_LOADER=1
+declare -gx XDG_CACHE_HOME=/home/runner/Visionmart/.cache
+declare -gx XDG_DATA_HOME=/home/runner/Visionmart/.local/share
+declare -gx REPL_IDENTITY_KEY=k2.secret.0SEdCZduSMEv7rg6ifvdq8ddfN84WWbAI2YDx76ki9pCevflcUR2CwFiVWsf8Hmxwpkv7eQg90WkhAbTEPe4xQ
+declare -gx REPL_LANGUAGE=html
+declare -gx COLORTERM=truecolor
+declare -gx DENO_TLS_CA_STORE=system
+declare -gx REPLIT_RIPPKGS_INDICES=/nix/store/73awzgwmrga8y0dl84cp30h40965wyk5-rippkgs-indices
+declare -gx REPLIT_NIX_CHANNEL=stable-23_11
+declare -gx SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
+declare -gx REPL_PUBKEYS='{"crosis-ci":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","crosis-ci:1":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","crosis-ci:latest":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","prod":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","prod:1":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","prod:2":"8uGN+vfszlnV93/HCSHlVLG0xddMlPkir1Ni4JKT4+w=","prod:3":"9+MCOSHQSQlcodXoot8dC8NLhc862nLkx1/VMsbY2h8=","prod:4":"8uGN+vfszlnV93/HCSHlVLG0xddMlPkir1Ni4JKT4+w=","prod:5":"9+MCOSHQSQlcodXoot8dC8NLhc862nLkx1/VMsbY2h8=","prod:latest":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","vault-goval-token":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E=","vault-goval-token:1":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E=","vault-goval-token:latest":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E="}'
+declare -gx PROMPT_DIRTRIM=2
+declare -gx REPL_SLUG=Visionmart
+declare -gx REPL_OWNER=honeyksolanki20
+declare -gx HOSTNAME=0073a389823d
+declare -gx NODE_EXTRA_CA_CERTS=/etc/ssl/certs/ca-certificates.crt
+declare -gx LOCALE_ARCHIVE=/usr/lib/locale/locale-archive
+declare -gx REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
+declare -gx __EGL_VENDOR_LIBRARY_FILENAMES=/nix/store/zxhjnh2d440bhli0zck18s10hcq07qpp-mesa-24.2.2-drivers/share/glvnd/egl_vendor.d/50_mesa.json
